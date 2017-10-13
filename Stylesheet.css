@@ -1,9 +1,10 @@
 body {
     background-color: dimgrey;
+    font-family: 'Roboto', sans-serif;
 }
 
 .background {
-    background-color: #996633;
+    background-color: gainsboro;
     width: 900px;
     height: 2000px;
     position: relative;
@@ -14,14 +15,14 @@ body {
 }
 
 h1 {
-    color: chartreuse;
+    color: floralwhite;
     z-index: 0;
     left: 20px;
     top: -9px;
     position: absolute;
 }
 .header {
-    background-color: #669900;
+    background-color: skyblue;
     width: 875px;
     height: 60px;
     left: 10px;
@@ -29,32 +30,45 @@ h1 {
     display: block;
     z-index: -1;
     position: absolute;
+    box-shadow: 5px 5px 0px cadetblue;
+}
 
+.content1 {
+     background-color: lightslategray;
+     width: 600px;
+     height: 400px;
+     position: absolute;
+     top: 180px;
+     left: 20px;
 }
-.headerShadow {
-    background-color: #003300;
-    width: 883px;
-    height: 68px;
-    z-index: -2;
-    position: absolute;
-    top: 10px;
-    left: 10px;   
-}
-.menu {
-    background-color: #993300;
-    width: 700px;
-    height: 35px;
-    position: absolute;
-    top: 85px;
-    left: 50px;
+.sidebar {
     
 }
-
-.menuShadow {
-    background-color: #330000
-    width: 700px;
-    height: 35px;
+.menu {
+    background-color: darkslategrey; 
+    border: none;
+    color: white;
+    padding: 15px 300px 15px 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     position: absolute;
-    top: 85px;
-    left: 50px;
+    top: 90px;
+    left: 20px;
+    box-shadow: 5px 5px 0px black;
+}
+.buttons{
+    border:none;
+    background-color: darkslategrey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+.buttons:hover {
+    float: left;
+    top: 5px;
+  
+    
 }
