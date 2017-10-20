@@ -1,19 +1,18 @@
+
 body {
-    background-color: dimgrey;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
 }
 
-.background {
-    background-color: gainsboro;
-    width: 900px;
-    height: 2000px;
-    position: relative;
-    margin: 0 auto;
-    display: block;
-    top: 30px;  
-    z-index: -2
+p {
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
+h2 {
+    padding-top: 20px; 
+    padding-left: 80px;
+}
 h1 {
     color: floralwhite;
     z-index: 0;
@@ -23,52 +22,79 @@ h1 {
 }
 .header {
     background-color: skyblue;
-    width: 875px;
+    width: relative;
     height: 60px;
-    left: 10px;
-    top: 10px;
     display: block;
-    z-index: -1;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
     position: absolute;
-    box-shadow: 5px 5px 0px cadetblue;
+    box-shadow: 0px 5px 0px cadetblue;
 }
 
-.content1 {
-     background-color: lightslategray;
+.postDiv {
+     background-color: whitesmoke;
      width: 600px;
      height: 400px;
-     position: absolute;
-     top: 180px;
+     position: relative;
+     top: 80px;
      left: 20px;
+     box-shadow: 0px 5px 0px #ddeaff;
+     border-radius: 10px;
 }
 .sidebar {
-    
+    height: 800px;
+    width: 200px;
+    background-color: whitesmoke;
+    left: 650px;
+    top: 100px;
+    position: absolute;
+    border-radius: 10px;
+     
 }
 .menu {
-    background-color: darkslategrey; 
     border: none;
     color: white;
-    padding: 15px 300px 15px 5px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    position: absolute;
-    top: 90px;
-    left: 20px;
-    box-shadow: 5px 5px 0px black;
-}
-.buttons{
-    border:none;
-    background-color: darkslategrey;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     position: relative;
+    top: 22px;
+    left: 160px;
+    box-shadow: 0px 0px 0px black;
+}
+.headerButton {
+    text-decoration: none;
+    background-color: skyblue;
+    position: relative;
+    transition-duration: 0.4s;
+    color: white;
+    margin: 20px;
 }
 
-.buttons:hover {
-    float: left;
-    top: 5px;
-  
+.headerButton:hover {
+    color: gray;   
+}
+
+.sideEntity {
+    width: 5px;
+    height: 320px;
+    background-color: skyblue;
+    border-radius: 3px;
+    margin-left: 30px;
+    position: absolute;
+    top: 60px;
     
+}
+
+.interactiveDiv {
+    background-color: whitesmoke;
+     width: 600px;
+     height: 400px;
+     position: relative;
+     top: 80px;
+     left: 20px;
+     box-shadow: 0px 5px 0px #ddeaff;
+     border-radius: 10px; 
 }
